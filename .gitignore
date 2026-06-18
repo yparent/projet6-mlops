@@ -1,0 +1,29 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Donnees (trop volumineuses pour GitHub)
+data/
+*.csv
+*.parquet
+*.zip
+
+# MLflow (runs et artefacts locaux)
+mlruns/
+mlartifacts/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Fichiers systeme Windows / editeurs
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
